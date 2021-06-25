@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DockerSelenium_Suite" class="navigator-link">
+              <span class="suite-name border-passed">DockerSelenium Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DockerSelenium_Suite" class="navigator-link ">
+                    <span>D:\Personal\Projects\DockerSelenium\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DockerSelenium_Suite" class="navigator-link ">
+                    <span class="test-stats">17 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DockerSelenium_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DockerSelenium_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DockerSelenium_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DockerSelenium_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DockerSelenium_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DockerSelenium_Suite" class="hide-methods passed suite-DockerSelenium_Suite"> (hide)</a> <!-- hide-methods passed suite-DockerSelenium_Suite -->
+                      <a href="#" panel-name="suite-DockerSelenium_Suite" class="show-methods passed suite-DockerSelenium_Suite"> (show)</a> <!-- show-methods passed suite-DockerSelenium_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-DockerSelenium_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.TestCheckBox" class="method navigator-link" hash-for-method="testCheckBox">testCheckBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.Download" class="method navigator-link" hash-for-method="testDownload">testDownload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.DragAndDrop" class="method navigator-link" hash-for-method="testDragAndDrop">testDragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.DynamicContent" class="method navigator-link" hash-for-method="testDynamicContent">testDynamicContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.DynamicControls" class="method navigator-link" hash-for-method="testDynamicContentAddButton">testDynamicContentAddButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.JSAlert" class="method navigator-link" hash-for-method="testDynamicContentAddButton">testDynamicContentAddButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.DynamicControls" class="method navigator-link" hash-for-method="testDynamicContentDisableButton">testDynamicContentDisableButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.DynamicControls" class="method navigator-link" hash-for-method="testDynamicContentEnableButton">testDynamicContentEnableButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.JSAlert" class="method navigator-link" hash-for-method="testDynamicContentEnableButton">testDynamicContentEnableButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.DynamicControls" class="method navigator-link" hash-for-method="testDynamicContentRemoveButton">testDynamicContentRemoveButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.DynamicLoading" class="method navigator-link" hash-for-method="testDynamicContentRemoveButton">testDynamicContentRemoveButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.FloatingMenu" class="method navigator-link" hash-for-method="testFloatingMenu">testFloatingMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.IFrame" class="method navigator-link" hash-for-method="testFloatingMenu">testFloatingMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.Hover" class="method navigator-link" hash-for-method="testHover">testHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.JSAlert" class="method navigator-link" hash-for-method="testJSAlert">testJSAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.JScriptError" class="method navigator-link" hash-for-method="testJSAlert">testJSAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.LoginSuccess" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.ContextMenu" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.LoginFailure" class="method navigator-link" hash-for-method="testLoginFail">testLoginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.TestLinkOpen" class="method navigator-link" hash-for-method="testTestLinkOpen">testTestLinkOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.NotificationMsg" class="method navigator-link" hash-for-method="testTestLinkOpen">testTestLinkOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DockerSelenium_Suite" title="com.selenium.docker.Upload" class="method navigator-link" hash-for-method="testUpload">testUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DockerSelenium_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DockerSelenium_Suite" class="panel DockerSelenium_Suite">
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.LoginFailure</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginFail">
+                  </a> <!-- testLoginFail -->
+                  <span class="method-name">testLoginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.ContextMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.Upload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpload">
+                  </a> <!-- testUpload -->
+                  <span class="method-name">testUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.FloatingMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFloatingMenu">
+                  </a> <!-- testFloatingMenu -->
+                  <span class="method-name">testFloatingMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.JScriptError</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJSAlert">
+                  </a> <!-- testJSAlert -->
+                  <span class="method-name">testJSAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.Download</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDownload">
+                  </a> <!-- testDownload -->
+                  <span class="method-name">testDownload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.IFrame</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFloatingMenu">
+                  </a> <!-- testFloatingMenu -->
+                  <span class="method-name">testFloatingMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.NotificationMsg</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestLinkOpen">
+                  </a> <!-- testTestLinkOpen -->
+                  <span class="method-name">testTestLinkOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.LoginSuccess</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.TestLinkOpen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestLinkOpen">
+                  </a> <!-- testTestLinkOpen -->
+                  <span class="method-name">testTestLinkOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.DragAndDrop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDragAndDrop">
+                  </a> <!-- testDragAndDrop -->
+                  <span class="method-name">testDragAndDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.DynamicContent</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicContent">
+                  </a> <!-- testDynamicContent -->
+                  <span class="method-name">testDynamicContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.DynamicLoading</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicContentRemoveButton">
+                  </a> <!-- testDynamicContentRemoveButton -->
+                  <span class="method-name">testDynamicContentRemoveButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.TestCheckBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckBox">
+                  </a> <!-- testCheckBox -->
+                  <span class="method-name">testCheckBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.JSAlert</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicContentAddButton">
+                  </a> <!-- testDynamicContentAddButton -->
+                  <span class="method-name">testDynamicContentAddButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicContentEnableButton">
+                  </a> <!-- testDynamicContentEnableButton -->
+                  <span class="method-name">testDynamicContentEnableButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJSAlert">
+                  </a> <!-- testJSAlert -->
+                  <span class="method-name">testJSAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.DynamicControls</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicContentAddButton">
+                  </a> <!-- testDynamicContentAddButton -->
+                  <span class="method-name">testDynamicContentAddButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicContentDisableButton">
+                  </a> <!-- testDynamicContentDisableButton -->
+                  <span class="method-name">testDynamicContentDisableButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicContentEnableButton">
+                  </a> <!-- testDynamicContentEnableButton -->
+                  <span class="method-name">testDynamicContentEnableButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicContentRemoveButton">
+                  </a> <!-- testDynamicContentRemoveButton -->
+                  <span class="method-name">testDynamicContentRemoveButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+          <div class="suite-DockerSelenium_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.docker.Hover</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHover">
+                  </a> <!-- testHover -->
+                  <span class="method-name">testHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DockerSelenium_Suite-class-passed -->
+        </div> <!-- panel DockerSelenium_Suite -->
+        <div panel-name="test-xml-DockerSelenium_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Personal\Projects\DockerSelenium\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;DockerSelenium Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;LoginSuccess&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.LoginSuccess&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginSuccess --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;LoginFailure&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.LoginFailure&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginFailure --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;TestCheckBox&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.TestCheckBox&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCheckBox --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;ContextMenu&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.ContextMenu&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ContextMenu --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;DragAndDrop&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.DragAndDrop&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DragAndDrop --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;DynamicContent&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.DynamicContent&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DynamicContent --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;DynamicControls&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.DynamicControls&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DynamicControls --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;DynamicLoading&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.DynamicLoading&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DynamicLoading --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Download&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.Download&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Download --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Upload&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.Upload&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Upload --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;FloatingMenu&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.FloatingMenu&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FloatingMenu --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;IFrame&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.IFrame&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IFrame --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Hover&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.Hover&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Hover --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;JSAlert&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.JSAlert&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- JSAlert --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;JScriptError&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.JScriptError&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- JScriptError --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;TestLinkOpen&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.TestLinkOpen&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestLinkOpen --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;NotificationMsg&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.docker.NotificationMsg&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NotificationMsg --&gt;
+&lt;/suite&gt; &lt;!-- DockerSelenium Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DockerSelenium_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DockerSelenium Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginSuccess (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginFailure (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestCheckBox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ContextMenu (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DragAndDrop (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DynamicContent (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DynamicControls (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DynamicLoading (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Download (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Upload (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FloatingMenu (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IFrame (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Hover (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">JSAlert (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">JScriptError (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestLinkOpen (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NotificationMsg (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DockerSelenium_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DockerSelenium Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DockerSelenium_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DockerSelenium Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DockerSelenium_Suite');
+function tableData_DockerSelenium_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testDragAndDrop')
+data.setCell(0, 2, 'com.selenium.docker.DragAndDrop')
+data.setCell(0, 3, 131789);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testTestLinkOpen')
+data.setCell(1, 2, 'com.selenium.docker.NotificationMsg')
+data.setCell(1, 3, 14709);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDynamicContentAddButton')
+data.setCell(2, 2, 'com.selenium.docker.DynamicControls')
+data.setCell(2, 3, 8229);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDynamicContentAddButton')
+data.setCell(3, 2, 'com.selenium.docker.JSAlert')
+data.setCell(3, 3, 5097);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDynamicContent')
+data.setCell(4, 2, 'com.selenium.docker.DynamicContent')
+data.setCell(4, 3, 4428);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLogin')
+data.setCell(5, 2, 'com.selenium.docker.LoginSuccess')
+data.setCell(5, 3, 3790);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginFail')
+data.setCell(6, 2, 'com.selenium.docker.LoginFailure')
+data.setCell(6, 3, 3685);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testHover')
+data.setCell(7, 2, 'com.selenium.docker.Hover')
+data.setCell(7, 3, 3454);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testTestLinkOpen')
+data.setCell(8, 2, 'com.selenium.docker.TestLinkOpen')
+data.setCell(8, 3, 3415);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testUpload')
+data.setCell(9, 2, 'com.selenium.docker.Upload')
+data.setCell(9, 3, 3379);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testDynamicContentEnableButton')
+data.setCell(10, 2, 'com.selenium.docker.DynamicControls')
+data.setCell(10, 3, 3237);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLogin')
+data.setCell(11, 2, 'com.selenium.docker.ContextMenu')
+data.setCell(11, 3, 3199);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testDynamicContentRemoveButton')
+data.setCell(12, 2, 'com.selenium.docker.DynamicControls')
+data.setCell(12, 3, 3195);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDynamicContentDisableButton')
+data.setCell(13, 2, 'com.selenium.docker.DynamicControls')
+data.setCell(13, 3, 3192);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testDownload')
+data.setCell(14, 2, 'com.selenium.docker.Download')
+data.setCell(14, 3, 3142);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testDynamicContentRemoveButton')
+data.setCell(15, 2, 'com.selenium.docker.DynamicLoading')
+data.setCell(15, 3, 3135);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testFloatingMenu')
+data.setCell(16, 2, 'com.selenium.docker.FloatingMenu')
+data.setCell(16, 3, 3134);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCheckBox')
+data.setCell(17, 2, 'com.selenium.docker.TestCheckBox')
+data.setCell(17, 3, 3115);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testJSAlert')
+data.setCell(18, 2, 'com.selenium.docker.JSAlert')
+data.setCell(18, 3, 3096);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testDynamicContentEnableButton')
+data.setCell(19, 2, 'com.selenium.docker.JSAlert')
+data.setCell(19, 3, 3087);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testFloatingMenu')
+data.setCell(20, 2, 'com.selenium.docker.IFrame')
+data.setCell(20, 3, 3057);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testJSAlert')
+data.setCell(21, 2, 'com.selenium.docker.JScriptError')
+data.setCell(21, 3, 3025);
+window.suiteTableData['DockerSelenium_Suite']= { tableData: data, tableDiv: 'times-div-DockerSelenium_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-DockerSelenium_Suite">
+              </div> <!-- times-div-DockerSelenium_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DockerSelenium_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DockerSelenium Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login again Successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLoginFail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login not Successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testCheckBox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Checkbox Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Alert text is same</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDragAndDrop</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Dragged</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDynamicContent</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">dynamic content changes</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDynamicContentDisableButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Button enabled Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDynamicContentEnableButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Button disabled Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDynamicContentRemoveButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Checkbox Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDynamicContentAddButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Checkbox Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDynamicContentRemoveButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hello World! appeared came Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDownload</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">File downloaded Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testUpload</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">File uploaded Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testFloatingMenu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Floating menu exist</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testFloatingMenu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Iframe exist</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testHover</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Hover display Successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDynamicContentEnableButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Alert text is same</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testDynamicContentAddButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Alert text is same</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testJSAlert</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Alert text is same</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testJSAlert</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Error verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTestLinkOpen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Window open successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testTestLinkOpen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Message shown successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DockerSelenium_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DockerSelenium_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.LoginSuccess</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">4827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8631 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.LoginFailure</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeLogin</span>
+                <span class="method-start">19663 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginFail</span>
+                <span class="method-start">22435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26121 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.TestCheckBox</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeCheckin</span>
+                <span class="method-start">37057 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCheckBox</span>
+                <span class="method-start">39668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42784 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.ContextMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeLogin</span>
+                <span class="method-start">53720 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">56327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59530 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.DragAndDrop</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeDragAndDrop</span>
+                <span class="method-start">70490 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDragAndDrop</span>
+                <span class="method-start">72973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">204764 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.DynamicContent</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeDynamicContent</span>
+                <span class="method-start">215790 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDynamicContent</span>
+                <span class="method-start">218566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">222995 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.DynamicControls</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeDynamicContent</span>
+                <span class="method-start">233942 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDynamicContentRemoveButton</span>
+                <span class="method-start">236545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDynamicContentAddButton</span>
+                <span class="method-start">239742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDynamicContentEnableButton</span>
+                <span class="method-start">247978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDynamicContentDisableButton</span>
+                <span class="method-start">251218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">254411 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.DynamicLoading</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeDynamicContent</span>
+                <span class="method-start">265686 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDynamicContentRemoveButton</span>
+                <span class="method-start">268390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">271526 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.Download</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeDownload</span>
+                <span class="method-start">282558 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDownload</span>
+                <span class="method-start">285645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">288790 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.Upload</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeUpload</span>
+                <span class="method-start">299784 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testUpload</span>
+                <span class="method-start">302778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">306158 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.FloatingMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeFloatingMenu</span>
+                <span class="method-start">317200 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testFloatingMenu</span>
+                <span class="method-start">319945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">323081 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.IFrame</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeFloatingMenu</span>
+                <span class="method-start">334187 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testFloatingMenu</span>
+                <span class="method-start">339271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">342329 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.Hover</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeHover</span>
+                <span class="method-start">353418 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testHover</span>
+                <span class="method-start">356077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">359532 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.JSAlert</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeJSAlert</span>
+                <span class="method-start">370557 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testJSAlert</span>
+                <span class="method-start">374164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDynamicContentAddButton</span>
+                <span class="method-start">377262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDynamicContentEnableButton</span>
+                <span class="method-start">382363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">385451 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.JScriptError</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeJSAlert</span>
+                <span class="method-start">396441 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testJSAlert</span>
+                <span class="method-start">398660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">401686 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.TestLinkOpen</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTestLinkOpen</span>
+                <span class="method-start">412743 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testTestLinkOpen</span>
+                <span class="method-start">415470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">418886 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.docker.NotificationMsg</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTestLinkOpen</span>
+                <span class="method-start">429873 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testTestLinkOpen</span>
+                <span class="method-start">432576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">447287 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

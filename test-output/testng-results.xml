@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Login again Successful]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Login not Successful]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[Checkbox started]]>
+    </line>
+    <line>
+      <![CDATA[Checkbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[Context menu started]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is same]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[Drag and Drop started]]>
+    </line>
+    <line>
+      <![CDATA[Dragged]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[DYNAMIC_CONTENT started]]>
+    </line>
+    <line>
+      <![CDATA[dynamic content changes]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[DYNAMIC_CONTROL started]]>
+    </line>
+    <line>
+      <![CDATA[Checkbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Checkbox Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Button disabled Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Button enabled Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[DYNAMIC_LOADING started]]>
+    </line>
+    <line>
+      <![CDATA[Hello World! appeared came Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[DOWNLOAD started]]>
+    </line>
+    <line>
+      <![CDATA[File downloaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[UPLOAD started]]>
+    </line>
+    <line>
+      <![CDATA[File uploaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[Floating menu started]]>
+    </line>
+    <line>
+      <![CDATA[Floating menu exist]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[IFRAME started]]>
+    </line>
+    <line>
+      <![CDATA[Iframe exist]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[Hover started]]>
+    </line>
+    <line>
+      <![CDATA[Hover display Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[JSAlert started]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is same]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is same]]>
+    </line>
+    <line>
+      <![CDATA[Alert text is same]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[JSError started]]>
+    </line>
+    <line>
+      <![CDATA[Error verified]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[TestLinkOpen started]]>
+    </line>
+    <line>
+      <![CDATA[Window open successfully]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[TestLinkOpen started]]>
+    </line>
+    <line>
+      <![CDATA[Message shown successfully]]>
+    </line>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-06-25T08:06:16 IST" name="DockerSelenium Suite" finished-at="2021-06-25T08:13:54 IST" duration-ms="458214">
+    <groups>
+    </groups>
+    <test started-at="2021-06-25T08:06:16 IST" name="LoginSuccess" finished-at="2021-06-25T08:06:36 IST" duration-ms="19574">
+      <class name="com.selenium.docker.LoginSuccess">
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.selenium.docker.LoginSuccess@140c9f39]" started-at="2021-06-25T08:06:16 IST" name="beforeLogin" finished-at="2021-06-25T08:06:21 IST" duration-ms="4809" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="testLogin()[pri:0, instance:com.selenium.docker.LoginSuccess@140c9f39]" started-at="2021-06-25T08:06:21 IST" name="testLogin" finished-at="2021-06-25T08:06:25 IST" duration-ms="3790" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login again Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.LoginSuccess@140c9f39]" started-at="2021-06-25T08:06:25 IST" name="tearDown" finished-at="2021-06-25T08:06:36 IST" duration-ms="10897" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.LoginSuccess -->
+    </test> <!-- LoginSuccess -->
+    <test started-at="2021-06-25T08:06:36 IST" name="LoginFailure" finished-at="2021-06-25T08:06:53 IST" duration-ms="17378">
+      <class name="com.selenium.docker.LoginFailure">
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.selenium.docker.LoginFailure@51dcb805]" started-at="2021-06-25T08:06:36 IST" name="beforeLogin" finished-at="2021-06-25T08:06:39 IST" duration-ms="2772" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="testLoginFail()[pri:0, instance:com.selenium.docker.LoginFailure@51dcb805]" started-at="2021-06-25T08:06:39 IST" name="testLoginFail" finished-at="2021-06-25T08:06:42 IST" duration-ms="3685" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login not Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.LoginFailure@51dcb805]" started-at="2021-06-25T08:06:42 IST" name="tearDown" finished-at="2021-06-25T08:06:53 IST" duration-ms="10916" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.LoginFailure -->
+    </test> <!-- LoginFailure -->
+    <test started-at="2021-06-25T08:06:53 IST" name="TestCheckBox" finished-at="2021-06-25T08:07:10 IST" duration-ms="16634">
+      <class name="com.selenium.docker.TestCheckBox">
+        <test-method is-config="true" signature="beforeCheckin()[pri:0, instance:com.selenium.docker.TestCheckBox@4e096385]" started-at="2021-06-25T08:06:53 IST" name="beforeCheckin" finished-at="2021-06-25T08:06:56 IST" duration-ms="2611" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkbox started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeCheckin -->
+        <test-method signature="testCheckBox()[pri:0, instance:com.selenium.docker.TestCheckBox@4e096385]" started-at="2021-06-25T08:06:56 IST" name="testCheckBox" finished-at="2021-06-25T08:06:59 IST" duration-ms="3115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkbox Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckBox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.TestCheckBox@4e096385]" started-at="2021-06-25T08:06:59 IST" name="tearDown" finished-at="2021-06-25T08:07:10 IST" duration-ms="10903" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.TestCheckBox -->
+    </test> <!-- TestCheckBox -->
+    <test started-at="2021-06-25T08:07:10 IST" name="ContextMenu" finished-at="2021-06-25T08:07:27 IST" duration-ms="16751">
+      <class name="com.selenium.docker.ContextMenu">
+        <test-method is-config="true" signature="beforeLogin()[pri:0, instance:com.selenium.docker.ContextMenu@1b6e1eff]" started-at="2021-06-25T08:07:10 IST" name="beforeLogin" finished-at="2021-06-25T08:07:13 IST" duration-ms="2607" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Context menu started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method signature="testLogin()[pri:0, instance:com.selenium.docker.ContextMenu@1b6e1eff]" started-at="2021-06-25T08:07:13 IST" name="testLogin" finished-at="2021-06-25T08:07:16 IST" duration-ms="3199" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Alert text is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.ContextMenu@1b6e1eff]" started-at="2021-06-25T08:07:16 IST" name="tearDown" finished-at="2021-06-25T08:07:27 IST" duration-ms="10929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.ContextMenu -->
+    </test> <!-- ContextMenu -->
+    <test started-at="2021-06-25T08:07:27 IST" name="DragAndDrop" finished-at="2021-06-25T08:09:52 IST" duration-ms="145280">
+      <class name="com.selenium.docker.DragAndDrop">
+        <test-method is-config="true" signature="beforeDragAndDrop()[pri:0, instance:com.selenium.docker.DragAndDrop@247d8ae]" started-at="2021-06-25T08:07:27 IST" name="beforeDragAndDrop" finished-at="2021-06-25T08:07:29 IST" duration-ms="2483" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Drag and Drop started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeDragAndDrop -->
+        <test-method signature="testDragAndDrop()[pri:0, instance:com.selenium.docker.DragAndDrop@247d8ae]" started-at="2021-06-25T08:07:29 IST" name="testDragAndDrop" finished-at="2021-06-25T08:09:41 IST" duration-ms="131789" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dragged]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.DragAndDrop@247d8ae]" started-at="2021-06-25T08:09:41 IST" name="tearDown" finished-at="2021-06-25T08:09:52 IST" duration-ms="10998" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.DragAndDrop -->
+    </test> <!-- DragAndDrop -->
+    <test started-at="2021-06-25T08:09:52 IST" name="DynamicContent" finished-at="2021-06-25T08:10:10 IST" duration-ms="18129">
+      <class name="com.selenium.docker.DynamicContent">
+        <test-method is-config="true" signature="beforeDynamicContent()[pri:0, instance:com.selenium.docker.DynamicContent@6bedbc4d]" started-at="2021-06-25T08:09:52 IST" name="beforeDynamicContent" finished-at="2021-06-25T08:09:55 IST" duration-ms="2775" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DYNAMIC_CONTENT started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeDynamicContent -->
+        <test-method signature="testDynamicContent()[pri:0, instance:com.selenium.docker.DynamicContent@6bedbc4d]" started-at="2021-06-25T08:09:55 IST" name="testDynamicContent" finished-at="2021-06-25T08:09:59 IST" duration-ms="4428" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[dynamic content changes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDynamicContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.DynamicContent@6bedbc4d]" started-at="2021-06-25T08:09:59 IST" name="tearDown" finished-at="2021-06-25T08:10:10 IST" duration-ms="10920" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.DynamicContent -->
+    </test> <!-- DynamicContent -->
+    <test started-at="2021-06-25T08:10:10 IST" name="DynamicControls" finished-at="2021-06-25T08:10:42 IST" duration-ms="31733">
+      <class name="com.selenium.docker.DynamicControls">
+        <test-method is-config="true" signature="beforeDynamicContent()[pri:0, instance:com.selenium.docker.DynamicControls@101952da]" started-at="2021-06-25T08:10:10 IST" name="beforeDynamicContent" finished-at="2021-06-25T08:10:13 IST" duration-ms="2602" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DYNAMIC_CONTROL started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeDynamicContent -->
+        <test-method signature="testDynamicContentRemoveButton()[pri:0, instance:com.selenium.docker.DynamicControls@101952da]" started-at="2021-06-25T08:10:13 IST" name="testDynamicContentRemoveButton" finished-at="2021-06-25T08:10:16 IST" duration-ms="3195" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkbox Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDynamicContentRemoveButton -->
+        <test-method signature="testDynamicContentAddButton()[pri:1, instance:com.selenium.docker.DynamicControls@101952da]" started-at="2021-06-25T08:10:16 IST" name="testDynamicContentAddButton" finished-at="2021-06-25T08:10:24 IST" duration-ms="8229" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkbox Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDynamicContentAddButton -->
+        <test-method signature="testDynamicContentEnableButton()[pri:2, instance:com.selenium.docker.DynamicControls@101952da]" started-at="2021-06-25T08:10:24 IST" name="testDynamicContentEnableButton" finished-at="2021-06-25T08:10:27 IST" duration-ms="3237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Button disabled Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDynamicContentEnableButton -->
+        <test-method signature="testDynamicContentDisableButton()[pri:3, instance:com.selenium.docker.DynamicControls@101952da]" started-at="2021-06-25T08:10:27 IST" name="testDynamicContentDisableButton" finished-at="2021-06-25T08:10:31 IST" duration-ms="3192" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Button enabled Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDynamicContentDisableButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.DynamicControls@101952da]" started-at="2021-06-25T08:10:31 IST" name="tearDown" finished-at="2021-06-25T08:10:42 IST" duration-ms="11255" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.DynamicControls -->
+    </test> <!-- DynamicControls -->
+    <test started-at="2021-06-25T08:10:42 IST" name="DynamicLoading" finished-at="2021-06-25T08:10:59 IST" duration-ms="16866">
+      <class name="com.selenium.docker.DynamicLoading">
+        <test-method is-config="true" signature="beforeDynamicContent()[pri:0, instance:com.selenium.docker.DynamicLoading@7a419da4]" started-at="2021-06-25T08:10:42 IST" name="beforeDynamicContent" finished-at="2021-06-25T08:10:45 IST" duration-ms="2704" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DYNAMIC_LOADING started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeDynamicContent -->
+        <test-method signature="testDynamicContentRemoveButton()[pri:0, instance:com.selenium.docker.DynamicLoading@7a419da4]" started-at="2021-06-25T08:10:45 IST" name="testDynamicContentRemoveButton" finished-at="2021-06-25T08:10:48 IST" duration-ms="3135" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello World! appeared came Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDynamicContentRemoveButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.DynamicLoading@7a419da4]" started-at="2021-06-25T08:10:48 IST" name="tearDown" finished-at="2021-06-25T08:10:59 IST" duration-ms="11024" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.DynamicLoading -->
+    </test> <!-- DynamicLoading -->
+    <test started-at="2021-06-25T08:10:59 IST" name="Download" finished-at="2021-06-25T08:11:16 IST" duration-ms="17220">
+      <class name="com.selenium.docker.Download">
+        <test-method is-config="true" signature="beforeDownload()[pri:0, instance:com.selenium.docker.Download@4d5b6aac]" started-at="2021-06-25T08:10:59 IST" name="beforeDownload" finished-at="2021-06-25T08:11:02 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DOWNLOAD started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeDownload -->
+        <test-method signature="testDownload()[pri:0, instance:com.selenium.docker.Download@4d5b6aac]" started-at="2021-06-25T08:11:02 IST" name="testDownload" finished-at="2021-06-25T08:11:05 IST" duration-ms="3142" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File downloaded Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDownload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.Download@4d5b6aac]" started-at="2021-06-25T08:11:05 IST" name="tearDown" finished-at="2021-06-25T08:11:16 IST" duration-ms="10985" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.Download -->
+    </test> <!-- Download -->
+    <test started-at="2021-06-25T08:11:16 IST" name="Upload" finished-at="2021-06-25T08:11:33 IST" duration-ms="17411">
+      <class name="com.selenium.docker.Upload">
+        <test-method is-config="true" signature="beforeUpload()[pri:0, instance:com.selenium.docker.Upload@32b260fa]" started-at="2021-06-25T08:11:16 IST" name="beforeUpload" finished-at="2021-06-25T08:11:19 IST" duration-ms="2994" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UPLOAD started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeUpload -->
+        <test-method signature="testUpload()[pri:0, instance:com.selenium.docker.Upload@32b260fa]" started-at="2021-06-25T08:11:19 IST" name="testUpload" finished-at="2021-06-25T08:11:22 IST" duration-ms="3379" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File uploaded Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.Upload@32b260fa]" started-at="2021-06-25T08:11:22 IST" name="tearDown" finished-at="2021-06-25T08:11:33 IST" duration-ms="11036" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.Upload -->
+    </test> <!-- Upload -->
+    <test started-at="2021-06-25T08:11:33 IST" name="FloatingMenu" finished-at="2021-06-25T08:11:50 IST" duration-ms="16981">
+      <class name="com.selenium.docker.FloatingMenu">
+        <test-method is-config="true" signature="beforeFloatingMenu()[pri:0, instance:com.selenium.docker.FloatingMenu@71238fc2]" started-at="2021-06-25T08:11:33 IST" name="beforeFloatingMenu" finished-at="2021-06-25T08:11:36 IST" duration-ms="2744" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Floating menu started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeFloatingMenu -->
+        <test-method signature="testFloatingMenu()[pri:0, instance:com.selenium.docker.FloatingMenu@71238fc2]" started-at="2021-06-25T08:11:36 IST" name="testFloatingMenu" finished-at="2021-06-25T08:11:39 IST" duration-ms="3134" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Floating menu exist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFloatingMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.FloatingMenu@71238fc2]" started-at="2021-06-25T08:11:39 IST" name="tearDown" finished-at="2021-06-25T08:11:50 IST" duration-ms="11098" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.FloatingMenu -->
+    </test> <!-- FloatingMenu -->
+    <test started-at="2021-06-25T08:11:50 IST" name="IFrame" finished-at="2021-06-25T08:12:10 IST" duration-ms="19207">
+      <class name="com.selenium.docker.IFrame">
+        <test-method is-config="true" signature="beforeFloatingMenu()[pri:0, instance:com.selenium.docker.IFrame@25084a1e]" started-at="2021-06-25T08:11:50 IST" name="beforeFloatingMenu" finished-at="2021-06-25T08:11:55 IST" duration-ms="5082" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[IFRAME started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeFloatingMenu -->
+        <test-method signature="testFloatingMenu()[pri:0, instance:com.selenium.docker.IFrame@25084a1e]" started-at="2021-06-25T08:11:55 IST" name="testFloatingMenu" finished-at="2021-06-25T08:11:59 IST" duration-ms="3057" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Iframe exist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFloatingMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.IFrame@25084a1e]" started-at="2021-06-25T08:11:59 IST" name="tearDown" finished-at="2021-06-25T08:12:10 IST" duration-ms="11064" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.IFrame -->
+    </test> <!-- IFrame -->
+    <test started-at="2021-06-25T08:12:10 IST" name="Hover" finished-at="2021-06-25T08:12:27 IST" duration-ms="17115">
+      <class name="com.selenium.docker.Hover">
+        <test-method is-config="true" signature="beforeHover()[pri:0, instance:com.selenium.docker.Hover@4d0f2471]" started-at="2021-06-25T08:12:10 IST" name="beforeHover" finished-at="2021-06-25T08:12:12 IST" duration-ms="2659" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hover started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeHover -->
+        <test-method signature="testHover()[pri:0, instance:com.selenium.docker.Hover@4d0f2471]" started-at="2021-06-25T08:12:12 IST" name="testHover" finished-at="2021-06-25T08:12:16 IST" duration-ms="3454" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hover display Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.Hover@4d0f2471]" started-at="2021-06-25T08:12:16 IST" name="tearDown" finished-at="2021-06-25T08:12:27 IST" duration-ms="10993" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.Hover -->
+    </test> <!-- Hover -->
+    <test started-at="2021-06-25T08:12:27 IST" name="JSAlert" finished-at="2021-06-25T08:12:53 IST" duration-ms="25870">
+      <class name="com.selenium.docker.JSAlert">
+        <test-method is-config="true" signature="beforeJSAlert()[pri:0, instance:com.selenium.docker.JSAlert@56cdfb3b]" started-at="2021-06-25T08:12:27 IST" name="beforeJSAlert" finished-at="2021-06-25T08:12:30 IST" duration-ms="3606" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[JSAlert started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeJSAlert -->
+        <test-method signature="testJSAlert()[pri:0, instance:com.selenium.docker.JSAlert@56cdfb3b]" started-at="2021-06-25T08:12:30 IST" name="testJSAlert" finished-at="2021-06-25T08:12:33 IST" duration-ms="3096" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Alert text is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testJSAlert -->
+        <test-method signature="testDynamicContentAddButton()[pri:1, instance:com.selenium.docker.JSAlert@56cdfb3b]" started-at="2021-06-25T08:12:33 IST" name="testDynamicContentAddButton" finished-at="2021-06-25T08:12:39 IST" duration-ms="5097" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Alert text is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDynamicContentAddButton -->
+        <test-method signature="testDynamicContentEnableButton()[pri:2, instance:com.selenium.docker.JSAlert@56cdfb3b]" started-at="2021-06-25T08:12:39 IST" name="testDynamicContentEnableButton" finished-at="2021-06-25T08:12:42 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Alert text is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDynamicContentEnableButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.JSAlert@56cdfb3b]" started-at="2021-06-25T08:12:42 IST" name="tearDown" finished-at="2021-06-25T08:12:53 IST" duration-ms="10967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.JSAlert -->
+    </test> <!-- JSAlert -->
+    <test started-at="2021-06-25T08:12:53 IST" name="JScriptError" finished-at="2021-06-25T08:13:09 IST" duration-ms="16287">
+      <class name="com.selenium.docker.JScriptError">
+        <test-method is-config="true" signature="beforeJSAlert()[pri:0, instance:com.selenium.docker.JScriptError@22ef9844]" started-at="2021-06-25T08:12:53 IST" name="beforeJSAlert" finished-at="2021-06-25T08:12:55 IST" duration-ms="2219" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[JSError started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeJSAlert -->
+        <test-method signature="testJSAlert()[pri:0, instance:com.selenium.docker.JScriptError@22ef9844]" started-at="2021-06-25T08:12:55 IST" name="testJSAlert" finished-at="2021-06-25T08:12:58 IST" duration-ms="3025" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Error verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testJSAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.JScriptError@22ef9844]" started-at="2021-06-25T08:12:58 IST" name="tearDown" finished-at="2021-06-25T08:13:09 IST" duration-ms="11039" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.JScriptError -->
+    </test> <!-- JScriptError -->
+    <test started-at="2021-06-25T08:13:09 IST" name="TestLinkOpen" finished-at="2021-06-25T08:13:26 IST" duration-ms="17111">
+      <class name="com.selenium.docker.TestLinkOpen">
+        <test-method is-config="true" signature="beforeTestLinkOpen()[pri:0, instance:com.selenium.docker.TestLinkOpen@5acf93bb]" started-at="2021-06-25T08:13:09 IST" name="beforeTestLinkOpen" finished-at="2021-06-25T08:13:12 IST" duration-ms="2727" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestLinkOpen started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestLinkOpen -->
+        <test-method signature="testTestLinkOpen()[pri:0, instance:com.selenium.docker.TestLinkOpen@5acf93bb]" started-at="2021-06-25T08:13:12 IST" name="testTestLinkOpen" finished-at="2021-06-25T08:13:15 IST" duration-ms="3415" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Window open successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTestLinkOpen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.TestLinkOpen@5acf93bb]" started-at="2021-06-25T08:13:15 IST" name="tearDown" finished-at="2021-06-25T08:13:26 IST" duration-ms="10962" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.TestLinkOpen -->
+    </test> <!-- TestLinkOpen -->
+    <test started-at="2021-06-25T08:13:26 IST" name="NotificationMsg" finished-at="2021-06-25T08:13:54 IST" duration-ms="28303">
+      <class name="com.selenium.docker.NotificationMsg">
+        <test-method is-config="true" signature="beforeTestLinkOpen()[pri:0, instance:com.selenium.docker.NotificationMsg@58695725]" started-at="2021-06-25T08:13:26 IST" name="beforeTestLinkOpen" finished-at="2021-06-25T08:13:29 IST" duration-ms="2703" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestLinkOpen started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestLinkOpen -->
+        <test-method signature="testTestLinkOpen()[pri:0, instance:com.selenium.docker.NotificationMsg@58695725]" started-at="2021-06-25T08:13:29 IST" name="testTestLinkOpen" finished-at="2021-06-25T08:13:43 IST" duration-ms="14709" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Message shown successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTestLinkOpen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.docker.NotificationMsg@58695725]" started-at="2021-06-25T08:13:43 IST" name="tearDown" finished-at="2021-06-25T08:13:54 IST" duration-ms="10885" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.docker.NotificationMsg -->
+    </test> <!-- NotificationMsg -->
+  </suite> <!-- DockerSelenium Suite -->
+</testng-results>
